@@ -9,8 +9,8 @@ function DoubanApi() {
 		place:"douban", /*至于此 id 为 place 的标签中*/
 		// user:"kingtouch",
 		// api:"0b204112100ace0a2160c33630206a1e",
-		user: "80732717",
-		api: "0b054b3d925d4f1d210fe1b8b717ed57",
+		user: "133568394",
+		api: "0d6ccfaf50b5870228466f0df2209506",
 		book:[{status:"reading",maxnum:20},{status:"read",maxnum:100},{status:"wish",maxnum:100}],
 		bookreadingtitle:"在读 · · ·",
 		bookreadtitle:"读过 · · ·",
