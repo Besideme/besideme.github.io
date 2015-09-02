@@ -1,3 +1,6 @@
 ul{
 	list-style-type: disc;
 }
+body{
+	background-color: rgba(251, 244, 248, 0.81) !important;
+}
