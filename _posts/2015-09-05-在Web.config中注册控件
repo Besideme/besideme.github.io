@@ -5,24 +5,24 @@ date:   2015-09-05 20:58:50
 categories: Note
 ---
 
-### 在Web.config中注册控件
+代码如下：
  
  
-       <?xml version="1.0" encoding="utf-8"?>
-      <!--
-        For more information on how to configure your ASP.NET application, please visit
-        http://go.microsoft.com/fwlink/?LinkId=169433
-        -->
-      <configuration>
-        <system.web>
-          <compilation debug="true" targetFramework="4.5" />
-          <httpRuntime targetFramework="4.5" />
-          
-          <pages>
-            <controls>
-              <add tagPrefix="CC" tagName="Calc" src="~/Custom/BasicCalc.ascx"/>
-            </controls>
-          </pages>
-          
-        </system.web>
-      </configuration>
+     <?xml version="1.0" encoding="utf-8"?>
+    <!--
+      For more information on how to configure your ASP.NET application, please visit
+      http://go.microsoft.com/fwlink/?LinkId=169433
+      -->
+    <configuration>
+      <system.web>
+        <compilation debug="true" targetFramework="4.5" />
+        <httpRuntime targetFramework="4.5" />
+        
+        <pages>
+          <controls>
+            <add tagPrefix="CC" tagName="Calc" src="~/Custom/BasicCalc.ascx"/>
+          </controls>
+        </pages>
+        
+      </system.web>
+    </configuration>
