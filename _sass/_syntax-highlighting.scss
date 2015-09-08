@@ -3,6 +3,8 @@
  */
 .highlight {
     background: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
     @extend %vertical-rhythm;
 
     .c     { color: #998; font-style: italic } // Comment

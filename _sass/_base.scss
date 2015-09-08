@@ -21,7 +21,10 @@ h3 {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: "Times New Roman",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;

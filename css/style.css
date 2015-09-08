@@ -1,5 +1,7 @@
 ul{
 	list-style-type: disc;
+	font-size: 1.2em;
+    line-height: 1.8;
 }
 body{
 	background-color: rgba(251, 244, 248, 0.81) !important;
