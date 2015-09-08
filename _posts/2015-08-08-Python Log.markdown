@@ -8,41 +8,127 @@ categories: thought
 ### 注释
 
 
-- Python中的字符以` # `开始表示注释，例如：  
+- Python中的字符以`#` 开始表示注释，例如：  
 
 
-		# this is the first comment  
-		SAMP = 1           # this is the second comment
-		STRING = "# this is not a comment."
+	  # this is the first comment  
+	  SAMP = 1           # this is the second comment
+	  STRING = "# this is not a comment."
 
 ### 简单的Python命令-数字 
 
    
-- `( )`用于分组，例如` 3 * (6 - 5) `  
-- `/`取决于操作数类型，两个` int `型返回` int `型，若有` float `返回` float `  
-- `//`用于求商，` % `用于求余  
-- `**`计算幂乘方，例如` 2 ** 3 ` 表示2的3次方  
-- `=`用于给变量赋值，变量使用前必须“定义”（赋值）  
-- 除了` int `和` float `，Python还支持` Decimal `and` Fraction `  
-- 交互模式中，最近一个表达式的值赋给` _ `，这样可以很方便地连续运算，例如  
+- `( )` 用于分组，例如`3 * (6 - 5)`  
+- `/` 取决于操作数类型，两个 `int` 型返回 `int` 型，若有 `float` 返回 `float`  
+- `//` 用于求商，`%` 用于求余  
+- `**` 计算幂乘方，例如 `2 ** 3` 表示2的3次方  
+- `=` 用于给变量赋值，变量使用前必须“定义”（赋值）  
+- 除了 `int` 和 `float` ，Python 还支持 `Decimal` and `Fraction`  
+- 交互模式中，最近一个表达式的值赋给 `_`，这样可以很方便地连续运算，例如  
 
-	    >>> tax = 12.5 / 100
-		>>> price = 100.50
-		>>> price * tax
-		12.5625
-		>>> round(_, 2)
-		12.56   
-
+	  >>> tax = 12.5 / 100
+	  >>> price = 100.50
+	  >>> price * tax
+	  12.5625
+	  >>> round(_, 2)
+	  12.56   
 
 ### 简单的Python命令-字符串
 
 
-	>>> s = 'First line.\nSecond line.'  # \n means newline
-	>>> s  # without print, \n is included in the output
-	'First line.\nSecond line.'
-	>>> print s  # with print, \n produces a new line
-	First line.
-	Second line.  
+- 字符串可以用单引号 `''` 或者双引号 `""` 标示，print 语句可以生成更好的输出，例如
 
-` \ `特殊
+	  >>> s = 'First line.\nSecond line.'  # \n means newline
+	  >>> s  # without print, \n is included in the output
+	  'First line.\nSecond line.'
+	  >>> print s  # with print, \n produces a new line
+	  First line.
+	  Second line.  
+
+- 特殊字符用 `\` 转义，如果带有 `\` 的字符被当做特殊字符，可以在第一个引号前加 `r` ，例如
+
+	  >>> print 'C:\some\name'  # here \n means newline!
+	  C:\some
+	  ame
+	  >>> print r'C:\some\name'  # note the r before the quote
+	  C:\some\name
+
+- 字符串文本能够分成多行，用三引号 `'''...'''` 或者 `"""..."""` 标示，例如
+
+	  print """\
+	  a
+	       -h                                      
+	  """
+
+- 字符串可以由 `+` 连接，用 `*` 表示重复，例如
+
+	  >>> # 3 times 'un', followed by 'ium'
+	  >>> 3 * 'un' + 'ium'
+	  'unununium'
+
+- 相邻的两个字符串文本自动连接在一起，如果想连接多个变量或者连接一个变量和字符串文本，使用 `+`
+
+	  >>>'a''bc'
+	  'abc'
+	  >>>s='a'
+	  >>>print s + 'bs'
+	  abs
+
+- 字符串也可以被截取（检索），字符串第一个索引为 0 ；字符串还支持切片，索引用于获得一个字符，切片用于获得一个字符串；切片省略的第一个索引默认为 0 ，第二个默认为切片的字符串大小；对于过大的索引值在右边默认为字符串实际长度，在左边返回空字符串；字符串不可以被改变，赋值给字符串索引的位置会出错。例如
+
+	  >>>word='Python'
+	  >>>word[0]
+	  'P'
+	  >>>word[-1] #last character，从右边开始计算
+	  'n'
+	  >>>word[1:3] #characters from 1(include) to 3(exclude)
+	  'yt'
+	  >>>word[4:] + word[:2]
+	  'onPy'
+	  >>>word[42:] + word[:42]
+	  'Python'
+
+- 内置函数 `len()` 返回字符串的长度，例如
+
+	  >>>s='ab'
+	  >>>len(s)
+	  2
+
+### 简单的Python命令-列表
+
+
+- 列表是中括号之间的一系列逗号分隔的值，列表的元素不必是同一类型
+
+	  >>>a=[1,'a',3,'b']
+
+
+- 列表也可以被索引和切片,列表也支持连接
+
+	  >>>a[0]
+	  1
+	  >>>a[0:2]
+	  [1,'a']
+	  >>>a[0:2]+[1,3]
+	  [1,'a',1,3]
+
+
+- 列表允许修改元素，len()也适用于列表
+
+	  >>>a[0:2]=['b',2]
+	  >>>print a
+	  ['b',2,1,3]
+	  >>>len(a)
+
+- 使用 append() 方法在列表末尾添加新的元素
+
+	  >>>a.append(2**3)
+	  >>>a
+	  ['b',2,1,3,8]
+
+
+- 列表允许嵌套
+
+	  >>>c=[a,'c']
+	  >>>c
+	  [['b',2,1,3,8],'c']
 

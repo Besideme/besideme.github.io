@@ -17,3 +17,5 @@ categories: thought
   Ctrl + ] 缩进  
  
  Ctrl + / + \ 注释 
+
+ALT + F3 全选      Ctrl + Alt + 上下键
