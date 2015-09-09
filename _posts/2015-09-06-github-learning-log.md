@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Github 学习笔记
+title:  Github learning log
 date:   2015-09-06 21:35:50
 categories: thought
 --- 
 
 ### 新建post
-将&nbsp;`besideme.github.io`&nbsp;文件夹拖到Sublime 中打开
+将 `besideme.github.io` 文件夹拖到Sublime 中打开
 在posts文件夹下新建file，开头加如下代码：
 
       ---
