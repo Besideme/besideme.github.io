@@ -8,7 +8,7 @@ categories: thought
 ### 注释
 
 
-- Python中的字符以`#` 开始表示注释，例如：  
+- Python中的字符以 `#` 开始表示注释，例如：  
 
 
 	  # this is the first comment  
@@ -43,7 +43,11 @@ categories: thought
 	  'First line.\nSecond line.'
 	  >>> print s  # with print, \n produces a new line
 	  First line.
-	  Second line.  
+	  Second line.
+	  >>>print 's is\n',s 
+	  s is
+	  First line.
+	  Second line. 
 
 - 特殊字符用 `\` 转义，如果带有 `\` 的字符被当做特殊字符，可以在第一个引号前加 `r` ，例如
 
@@ -132,3 +136,17 @@ categories: thought
 	  >>>c
 	  [['b',2,1,3,8],'c']
 
+### Python编程第一步
+
+
+- 变量可以同时赋值；循环体必须缩进，在最后输入空行标示循环结束，例如
+
+	  >>> # Fibonacci series:
+	  ... # the sum of two elements defines the next
+	  ... a, b = 0, 1
+	  >>> while b < 10:
+	  ...     print b,   #末尾加逗号可以禁止自动换行
+	  ...     a, b = b, a+b
+	  ...
+	  1 1 2 3 5 8
+	  
