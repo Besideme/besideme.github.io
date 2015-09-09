@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Github learning log
+title:  Github Learning Log
 date:   2015-09-06 21:35:50
 categories: thought
 --- 
