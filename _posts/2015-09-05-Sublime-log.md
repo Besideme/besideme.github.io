@@ -9,6 +9,7 @@ categories: thought
 - `div*4>ul>li*3` >表示下一级
   `div+.btn*2` 加号表示并列 
   在Sublime中敲 div 然后敲 TAB 即可出现提示 <div></div>
+  敲. TAB 即可出现<div class=""></div>
 
 - `Ctrl + N` 新建Sublime
   `Ctrl + Shift + P` 命令
