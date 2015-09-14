@@ -5,8 +5,10 @@ date:   2015-09-14 08:22:50
 categories: note
 ---
 
-`list.sort()` modifies the list in-place, the list.sort() method is only defined for lists.   
-`sorted()` build a new sorted list from an iterable, the sorted() function accepts any iterable. 
+`list.sort()` modifies the list in-place, the list.sort() method is only defined for lists. 
+
+`sorted()` build a new sorted list from an iterable （**数组/字符串/列表/集合/字典**）, the sorted() function accepts any iterable.
+
 
 ### Sorting Basics
 
@@ -24,11 +26,7 @@ sorted(set(['a','eee','bfrr']))
 ### Key Functions
 
 {% highlight python %}
->>> student_tuples = [
-    ('john', 'A', 15),
-    ('jane', 'B', 12),
-    ('dave', 'B', 10),
-]
+>>> student_tuples = [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
 >>> sorted(student_tuples, key = lambda stu: stu[2])   # sort by age
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 {% endhighlight %}
@@ -42,10 +40,10 @@ class Student:
         def __repr__(self):
             return repr((self.name, self.grade, self.age))
 >>> student_objects = [
-    Student('john', 'A', 15),
-    Student('jane', 'B', 12),
-    Student('dave', 'B', 10),
-]
+        Student('john', 'A', 15), 
+        Student('jane', 'B', 12),   
+        Student('dave', 'B', 10)
+    ]
 >>> sorted(student_objects, key = lambda stu: stu.age)   # sort by age
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 {% endhighlight %}
@@ -54,7 +52,7 @@ class Student:
 
 `operator.itemgetter()`, `operator.attrgetter()` can be easier
 {% highlight python %}
->>>from operator import itemgetter, attrgetter,methodcaller
+>>> from operator import itemgetter, attrgetter,methodcaller
 >>> sorted(student_tuples, key = itemgetter(2))
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 >>> sorted(student_objects, key = attrgetter('age'))
@@ -89,7 +87,7 @@ sorted(student_tuples, key=itemgetter(2), reverse=True)
 ### Sort Stability and Complex Sorts
 
 Starting with Python 2.2, sorts are guaranteed to be stable. That means that when multiple records have the same key, their original order is preserved.  
-This wonderful property lets you build complex sorts in a series of sorting steps. For example, to sort the student data by descending grade and then ascending age, do the age sort first and then sort again using grade．
+This wonderful property lets you build complex sorts in a series of sorting steps. For example, to sort the student data by **descending grade and then ascending age**, do the age sort first and then sort again using grade．
 
 ### Odd and Ends
 
