@@ -40,7 +40,8 @@ categories: thought
             git commit -m "自己的注释" 
             git push -u origin master 
             jekyll server 本地测试
-            git reset HEAD 修改题目  
+            git reset HEAD 修改题目
+            git checkout  修改 2015-09-06 题目
 
             删除文件
  git rm 文件名(asp.md)

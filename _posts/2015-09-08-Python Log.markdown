@@ -4,18 +4,9 @@ title:  Python Log
 date:   2015-09-08 09:35:50
 categories: thought
 ---
-
-### Python 第一步
-
-- 在 Sublime 中编写 Python 代码，保存为 .py文件，拖到命令行（开始 + R）运行。如果找不到文件，则输入 python test.py
-- 在 Python 27中直接敲代码运行
-
-
 ### 注释
 
-
 - Python中的字符以 `#` 开始表示注释，例如：  
-
 
 {% highlight python %}
 # this is the first comment  
@@ -23,10 +14,7 @@ SAMP = 1           # this is the second comment
 STRING = "# this is not a comment."
 {% endhighlight %}
 
-
-
 ### 简单的Python命令-数字 
-
    
 - `( )` 用于分组，例如`3 * (6 - 5)`  
 - `/` 取决于操作数类型，两个 `int` 型返回 `int` 型，若有 `float` 返回 `float`  
@@ -45,10 +33,7 @@ STRING = "# this is not a comment."
 12.56   
 {% endhighlight %}
 
-
-
 ### 简单的Python命令-字符串
-
 
 - 字符串可以用单引号 `''` 或者双引号 `""` 标示， `print` 语句可以生成更好的输出，例如
 
@@ -124,17 +109,13 @@ abs
 2
 {% endhighlight %}
 
-
-
 ### 简单的Python命令-列表
-
 
 - 列表是中括号之间的一系列逗号分隔的值，列表的元素不必是同一类型
 
 {% highlight python %}
 >>>a=[1,'a',3,'b']
 {% endhighlight %}
-
 
 - 列表也可以被索引和切片,列表也支持连接
 
@@ -146,7 +127,6 @@ abs
 >>>a[0:2]+[1,3]
 [1,'a',1,3]
 {% endhighlight %}
-
 
 - 列表允许修改元素， `len()` 也适用于列表
 
@@ -173,10 +153,7 @@ abs
 [['b',2,1,3,8],'c']
 {% endhighlight %}
 
-
-
 ### Python编程第一步
-
 
 - 变量可以同时赋值；循环体必须缩进，在最后输入空行标示循环结束，例如
 
