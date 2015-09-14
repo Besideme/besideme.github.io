@@ -74,7 +74,7 @@ The `operator.methodcaller()` function makes method calls with fixed parameters 
 For example, the `str.count()` method could be used to compute message priority by counting the number of exclamation marks in a message
 {% highlight python %}
 >>> m = ['aa', 'de', 'ad']
->>> sorted(messages, key = methodcaller('count', 'a'))
+>>> sorted(m, key = methodcaller('count', 'a'))
 ['de', 'ad', 'aa']
 {% endhighlight %}
 

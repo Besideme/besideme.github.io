@@ -14,6 +14,7 @@ categories: jekyll update
 `a.index(x)` 返回链表中第一个值为 `x` 的索引  
 `a.count(x)` 返回 `x` 在链表中出现的次数  
 `a.sort(cmp=None,key=None,reverse=False)` 对链表中的元素就地进行排序  
+`sorted(a,key=itemgetter(1,2))/attrgetter('age')/methodcaller('count','a')`
 `a.reverse()` 逆序排列
 
 ### 链表做堆栈、链表做队列
@@ -36,14 +37,14 @@ deque(['b','d','f'])
 `filter(function,sequence)` 返回一个序列（sequence），包括了给定序列中所有调用function(item in sequence) 后返回值为 true 的元素。
 
 {% highlight python %}
-# f(x) 判断 int 是否为 3 or 5 的倍数，若是，返回 Ture ，不是，返回 False
+# f(x) 判断 int 是否为 3 or 5 的倍数，若是，返回 True ，不是，返回 False
 def f(x):return x % 3 == 0 or x % 5 == 0  
 ...
 filter(f,range(2,10))
 [3,5,6,9]
 # 不同点在于 f(x) 只能作用于单个 int ，此种方式可以作用于 list
 map(f,range(2,10))
-[False,Ture,False,Ture,Ture,False,False,Ture]
+[False,True,False,True,True,False,False,True]
 {% endhighlight %}
 
 `map(function,sequence)` 为每一个元素调用 function(item) 并将返回值组成一个链表返回。
@@ -97,22 +98,20 @@ for x in range(1,4)
 {% highlight python %}
 [(x,y) for x in range(1,3) for y in range(0,7) if x!=y]  # 得到数组
 [x for x in range(-3,4) if x>=0]   #取正数
-abs(x) for x in range(-3,2)   #取绝对值
+[abs(x) for x in range(-3,2)]   #取绝对值
 from math import pi
 [str(round(pi,i)) for i in range(1,6)]  # 取 i 位小数
 # strip() 函数：a.strip() 删除头或尾的空白字符，\n \r \t &nbsp;
 # a.strip('e') 删除头或尾的指定元素
 # a.lstrip() 删除头的空白字符，a.lstrip('e') 删除头的指定字符，a 的值未被改变
 # a.rstrip() 删除尾的空白字符，a.rstrip('c') 删除尾的指定字符
+# 注意此处的 a is item not list
 [a.strip() for a in ['e','  c ']]  
 {% endhighlight %}
 
 {% highlight python %}
-matrix = [
-...    [1,2,3,4],
-...    [5,6,7,8],
-...]
-[[row[i] for row in matrix] for i in range(4)]  #交换矩阵行和列
+matrix = [[1,2,3,4],[5,6,7,8]]
+[[row[i] for row in matrix] for i in range(len(matrix[0]))]  #交换矩阵行和列
 {% endhighlight %}
 
 
@@ -143,6 +142,8 @@ True
 a = set('abc')
 a
 set(['a','b','c'])
+sorted(set(['a',2,'c']))
+[2,'a','c']
 b = set('cde')
 a-b  # letters in a but not in b
 set(['a','b'])

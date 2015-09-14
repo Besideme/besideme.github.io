@@ -128,7 +128,7 @@ def function(n):
 print function(20)
 {% endhighlight %}
 
-可以定义包含若干参数的函数，调用时参数可选，第一个为必须参数  
+可以定义包含若干参数的函数，调用时参数可选，第一个为必选参数  
 all keyword arguments（a='cd'）/all positional arguments('cd')/positional +keyword是有效的，其他是无效的
 (注意Ture/False/None等首字母要大写)
 
@@ -155,8 +155,8 @@ def f(a,L=[]):
 	L.append(a)
 	return L
 ...
-print(1)
-print(2)
+print f(1)
+print f(2)
 [1]
 [1,2]
 {% endhighlight %}
@@ -177,6 +177,6 @@ def f(a,L=None):
 
 {% highlight python %}
 args=[3,6]
-list(range(*args))
+range(*args)
 [3,4,5]
 {% endhighlight %}
