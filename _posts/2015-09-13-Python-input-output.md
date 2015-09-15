@@ -40,6 +40,20 @@ print '{0} is {num}'.format('a',num=4)
 a is 4
 {% endhighlight %}
 
+### 输入
+
+{% highlight python %}
+>>> s,l = raw_input(),raw_input()
+3
+3
+s
+'3'  # 因此 raw_input 为字符串形式输入, int（s）转为整型
+>>> s = raw_input('--> ')
+--> Monty Python's Flying Circus
+>>> s
+"Monty Python's Flying Circus"
+{%endhighlight%}
+
 ### 文件读写
 
 {% highlight python %}
