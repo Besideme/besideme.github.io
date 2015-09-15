@@ -9,3 +9,27 @@ body{
 pre,code{
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
+.backtotop{
+  position: fixed;
+  bottom: 81px;
+  cursor: pointer;
+  left: 50%;
+  text-align: center;
+  background-color: #ddd;
+  margin-left: 390px;
+}
+.backtotop a {
+  color: #fff;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  transition: 0.4s linear;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.backtotop:hover{
+  background-color: #bbb;
+}
+.backtotop a:hover{
+  text-decoration: none;
+}
