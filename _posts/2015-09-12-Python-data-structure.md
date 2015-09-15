@@ -17,6 +17,28 @@ categories: jekyll update
 `sorted(a,key=itemgetter(1,2))/attrgetter('age')/methodcaller('count','a')`
 `a.reverse()` 逆序排列
 
+### 列表和字符串之间的转化 list<>string
+
+{% highlight python %}
+# string 转 list
+str = 'ade'
+list = list(str)
+list
+['a','d','e']
+# 如果列表中非全是字母，则要加以下语句
+list = ['d',0,3]
+for i in range(len(list)):
+    list[i] = str(list[i])
+print list
+['d','0','0']
+# list 转 string
+str1 = ''
+str1 = str1.join(list)
+print str1
+d00
+{% endhighlight %}
+
+
 ### 链表做堆栈、链表做队列
 
 `append()` 可以将元素添加添加到堆栈顶，`pop()` 方法可以把一个元素从堆栈顶释放出来。  
