@@ -20,16 +20,6 @@ title: 链接
 - [Axure中文网](http://www.axure.com.cn/)
 - [W3School](http://www.w3school.com.cn/html5/att_input_width.asp)
 
-## 待读
-
-- [jekyll, git, github 环境 (windows)](http://herechen.github.io/technology/jekyll-git-github-windows/)
-- [前端开发工具](http://herechen.github.io/resources/front-end-development-tools/)
-- [谷歌浏览器开发工具](http://herechen.github.io/technology/chrome-devtools-function-description/)
-- [Leaning Log for Sublime Text](http://herechen.github.io/technology/sublime-text-leaning-log/)
-- [git - the simple guide - no deep shit!](http://rogerdudler.github.io/git-guide/index.zh.html)
-- [github删除fork项目-IT技术精华网](http://www.chepoo.com/remove-fork-github-project.html)
-- [simonwhitaker/github-fork-ribbon-css](https://github.com/simonwhitaker/github-fork-ribbon-css)
-- [Fix merge conflicts in Git? - Stack Overflow](http://stackoverflow.com/questions/161813/fix-merge-conflicts-in-git)
 
 ## 摄影
 
@@ -54,13 +44,6 @@ title: 链接
 - [信息科学与技术学院](http://sist.swjtu.edu.cn/index.do?action=index)
 - [研究生之窗](http://www.yanghua.net/WebSite/GraduateWindow/index.aspx)
 
-## 学术
-
-- [磊](http://herechen.github.io/)
-- [.NET简谈构件系统开发模式](http://wangqingpei557.blog.51cto.com/1009349/587991)
-- [126邮箱](http://www.126.com/#return)
-- [谷粉搜搜](http://www.gfsoso.com/)
-- [学术圈-首页](http://soscholar.com/)
 
 ## 新闻
 
