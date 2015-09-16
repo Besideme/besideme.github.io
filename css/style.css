@@ -1,10 +1,17 @@
 ul{
 	list-style-type: disc;
 	font-size: 20px;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 body{
 	background-color: rgba(251, 244, 248, 0.81) !important;
+}
+h1,h1.page-heading,.post-link{
+  font-size: 36px;
+  font-weight: bold;
+}
+.clearfix{
+  clear: both;
 }
 pre,code{
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
@@ -32,4 +39,7 @@ pre,code{
 }
 .backtotop a:hover{
   text-decoration: none;
+}
+.full-article{
+  text-align: right;
 }
