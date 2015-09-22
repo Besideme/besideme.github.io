@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "牛客网编程分享"
+title:  "Python 标准库"
 date:   2015-09-17 15:37:50
 categories: jekyll update
 ---
