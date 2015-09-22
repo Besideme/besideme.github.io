@@ -18,7 +18,6 @@ title: 链接
 - [WebPPD产品原型设计](http://www.webppd.com/forum-6-1.html)
 - [Axure Software](http://www.axure.com/learn)
 - [Axure中文网](http://www.axure.com.cn/)
-- [W3School](http://www.w3school.com.cn/html5/att_input_width.asp)
 
 
 ## 摄影
