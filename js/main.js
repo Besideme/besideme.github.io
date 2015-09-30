@@ -1,5 +1,14 @@
 (function(){
     backToTop("#back-top");
+
+    var heading = 'h2,h3,h4,h5';
+    /* title anchor */
+    anchors.options = {
+        placement: 'left',
+        icon: '⚓'
+    };
+    anchors.add(heading);
+
     function backToTop(toTopId) {
         // hide #back-top first
         $(toTopId).hide();

@@ -4,7 +4,7 @@ ul{
   line-height: 1.5;
 }
 body{
-	background-color: rgba(251, 244, 248, 0.81) !important;
+  background: url(/image/white_wall.png) rgba(251, 244, 248, 0.81) !important;
 }
 h1,h1.page-heading,.post-link{
   font-size: 33px;
@@ -42,4 +42,17 @@ pre,code{
 }
 .full-article{
   text-align: right;
+}
+a.anchorjs-link {
+    text-decoration: none;
+    color: #E01B1B;
+    text-shadow:0 0 0;
+    margin-left:-1.3em !important;
+}
+a.anchorjs-link:hover{
+  text-decoration: none;
+  color: #E01B1B;
+}
+a.anchorjs-link:visited{
+  color:#E01B1B;
 }
