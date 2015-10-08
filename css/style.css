@@ -22,23 +22,11 @@ pre,code{
   cursor: pointer;
   left: 50%;
   text-align: center;
-  background-color: #ddd;
-  margin-left: 390px;
-  border-radius: 50%;
-}
-.backtotop a {
-  color: #fff;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  transition: 0.4s linear;
-  display: block;
-}
-.backtotop:hover{
-  background-color: #bbb;
-}
-.backtotop a:hover{
-  text-decoration: none;
+  background: url(/image/rocket_small.png) no-repeat;
+  background-size: cover;
+  margin-left: 450px;
+  width: 30px;
+  height: 50px;
 }
 .full-article{
   text-align: right;
