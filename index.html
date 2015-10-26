@@ -15,7 +15,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h1>
         <p class="abstract">
-          {{ post.content | strip_html | truncatewords:20 }}
+          {{ post.content | strip_html | truncatewords:10 }}
         </p>
         <p class="full-article"><a href="{{ post.url }}">Read more...</a></p>
       </li>

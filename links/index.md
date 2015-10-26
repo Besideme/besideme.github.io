@@ -3,6 +3,9 @@ layout: page
 title: 链接
 ---
 
+## 个人简历
+
+- [个人简历](http://viewer.maka.im/k/7559ZXXT)
 
 ## Python
 
