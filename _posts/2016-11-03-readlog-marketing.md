@@ -5,8 +5,6 @@ date:   2016-11-03 21:35:50
 categories: thought
 ---
 
-## 阅读笔记 - 营销
-
 ### 【SNS病毒营销模型：利用人性缔造朋友圈的营销经典】
 11.03 人人都是产品经理
 
@@ -48,3 +46,5 @@ step3 还要考虑什么
 目标人群和启动流量，要让一些人先用起来  
 运维服务跟上，注意微信的相关规范  
 动态高效地执行，关注数据、关注传播、关注服务的可靠性和稳定性  
+
+原文链接 [http://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651732633&idx=1&sn=8edc2f9cd029ea7b113f201cf79739a1&chksm=bd3a19228a4d90340c9ad7893bd804bb58c6d2ec4ea88d8e8ee202b499d663154bf218be54c7&scene=0#wechat_redirect](http://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651732633&idx=1&sn=8edc2f9cd029ea7b113f201cf79739a1&chksm=bd3a19228a4d90340c9ad7893bd804bb58c6d2ec4ea88d8e8ee202b499d663154bf218be54c7&scene=0#wechat_redirect)
