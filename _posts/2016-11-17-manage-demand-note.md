@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "manage demand note"
+title:  "阅读笔记 - 需求管理1-1"
 date:   2016-11-17 16:40:50
 categories: jekyll update
 ---
-
-### 阅读笔记 - 需求管理1-1
 
 *产品经理如何有效地管理产品需求*  
 
