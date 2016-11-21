@@ -44,6 +44,6 @@ categories: jekyll update
 **需求管理**  
 
 1. 建立需求池  
-![需求池样式](/image/需求池表格.jpg）
+![需求池样式](/image/需求池表格.jpg)
 
 
