@@ -31,7 +31,7 @@ categories: jekyll update
 
 1. 提需求的方式：邮件 + 口头  
 2. 需求标准：需求明确具体、需求可衡量、需求可达到、需求有意义、需求有期限
-参考SMRAT原则[http://wiki.mbalib.com/wiki/SMART%E5%8E%9F%E5%88%99]（http://wiki.mbalib.com/wiki/SMART%E5%8E%9F%E5%88%99 "点击可查看MBA智库SMART原则"）  
+参考SMRAT原则  <http://wiki.mbalib.com/wiki/SMART%E5%8E%9F%E5%88%99>
 
 > 需求评审之前，需求挖掘和需求管理怎么做？
 
@@ -44,5 +44,5 @@ categories: jekyll update
 **需求管理**  
 
 1. 建立需求池  
-[Alt text](/image/需求池表格.jpg "需求池样式"）
+![Alt text](/image/需求池表格.jpg "需求池样式"）
 
