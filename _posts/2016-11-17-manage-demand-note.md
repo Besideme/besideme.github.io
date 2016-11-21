@@ -51,14 +51,14 @@ categories: jekyll update
 3. 判断产品优先级  
 
 - KANO模型
-![KANO模型](/image/KANO模型.jpg)  
+![KANO模型](/image/KANO模型.png)  
 
   基本需求：必须具备，一般是产品初期需要做的功能  
   期望型需求：用户期望内，用户能够较清晰地知道   
   兴奋型需求：超出用户预期，用户不知道有这方面的需求，如果提供，用户满意度会更高  
 
 - KANO模型延伸
-![KANO模型延伸](/image/KANO模型延伸.jpg)  
+![KANO模型延伸](/image/KANO模型延伸.png)  
 
   魅力需求：用户意想不到的，如果不提供此需求，用户满意度不会降低，但若提供此需求，用户满意度会有很大提升；  
   期望需求：当提供此需求，用户满意度会提升，当不提供此需求，用户满意度会降低；  
@@ -69,7 +69,7 @@ categories: jekyll update
 
 
 - 根据KANO模型判断用户满意度  
-![KANO模型结果](/image/KANO模型结果.jpg)
+![KANO模型结果](/image/KANO模型结果.png)
 
 
 
