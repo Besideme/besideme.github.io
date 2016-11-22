@@ -69,7 +69,7 @@ categories: jekyll update
 - 根据KANO模型判断用户满意度  
 ![KANO模型结果](/image/KANO模型结果.png)
 
-- 四象限法则
+- 四象限法则  
 ![四象限法则](/image/四象限法则.png)
 
 4. 技术评审  
