@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  阅读笔记 - 营销 1-1
+title:  阅读笔记 - 运营 1-1
 date:   2016-11-03 21:35:50
 categories: thought
 ---
