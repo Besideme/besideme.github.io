@@ -8,7 +8,7 @@ categories: thought
 ### SNS病毒营销模型：利用人性缔造朋友圈的营销经典
 11.03 from 人人都是产品经理
 
-#### SNS用户的关键行为分析     
+**SNS用户的关键行为分析**  
 
 用户为什么要在平台上逗留，他们的主要的行为是什么？—— 浏览、互动和分享   
 为什么浏览？  
@@ -16,18 +16,18 @@ categories: thought
 为什么分享？  
 以得到“认同”为核心，炫耀、攀比、个性、大爱和从众  
 
-#### SNS病毒传播的本质   
+**SNS病毒传播的本质**  
 
-结合产品特点，围绕SNS环境下人性的内驱力，设计用户愿意浏览、参与并分享的功能或活动    
+结合产品特点，围绕SNS环境下人性的内驱力，设计用户愿意浏览、参与并分享的功能或活动    
 ex 百度魔图PK大咖：你传一张照片，它能够帮你匹配出很像你的一张明星照片，帮你算出你和这个明星的相似度有百分之多少    
 浏览者：窥私、嫉妒 -> 参与分享者：炫耀、从众  
 ex 天天P图全民cos武媚娘  
 ex 脸萌  
 
-#### 实施   
+**实施**  
 
-step1 结合功能思考人性  
-tip 尽量设计和选择用户没见过、没玩过、没体验过的一些玩法  
+step1 结合功能思考人性  
+tip 尽量设计和选择用户没见过、没玩过、没体验过的一些玩法  
 
 step2 打磨过程体验  
 tip   
@@ -43,8 +43,18 @@ step3 还要考虑什么
 2. 运维服务跟上，注意微信的相关规范  
 3. 动态高效地执行，关注数据、关注传播、关注服务的可靠性和稳定性  
 
-#### 总结  
+**总结**  
 
-![SNS病毒营销模型](/image/SNS病毒营销模型.png)  
+![SNS病毒营销模型](/image/SNS病毒营销模型.png)  
 
-原文链接 [http://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651732633&idx=1&sn=8edc2f9cd029ea7b113f201cf79739a1&chksm=bd3a19228a4d90340c9ad7893bd804bb58c6d2ec4ea88d8e8ee202b499d663154bf218be54c7&scene=0#wechat_redirect](http://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651732633&idx=1&sn=8edc2f9cd029ea7b113f201cf79739a1&chksm=bd3a19228a4d90340c9ad7893bd804bb58c6d2ec4ea88d8e8ee202b499d663154bf218be54c7&scene=0#wechat_redirect)
+原文链接 [http://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651732633&idx=1&sn=8edc2f9cd029ea7b113f201cf79739a1&chksm=bd3a19228a4d90340c9ad7893bd804bb58c6d2ec4ea88d8e8ee202b499d663154bf218be54c7&scene=0#wechat_redirect](http://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651732633&idx=1&sn=8edc2f9cd029ea7b113f201cf79739a1&chksm=bd3a19228a4d90340c9ad7893bd804bb58c6d2ec4ea88d8e8ee202b499d663154bf218be54c7&scene=0#wechat_redirect)  
+
+> 获取新增用户，运营都应该知道的事  
+
+**用户获取成本 CAC**  
+
+用户获取成本（Customer Acquisition Cost） = 新增用户的总投入／新增用户总数  
+
+如果运营拿活动、红包等激励新用户注册，建议将留存的考察时间拉长（羊毛党用户会在收到活动礼品后才卸载）  
+CAC = 新增投入／n 日后新增留存用户  
+能留下用户的渠道才是好渠道，通过对比不同渠道的 CAC 来选择促进用户注册的方法  
