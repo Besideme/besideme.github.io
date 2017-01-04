@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "交互自查表"
 date:   2017-01-04 18:26:50
-categories: jekyll update
+categories: create note
 ---
 
 信息层级是否清晰    
