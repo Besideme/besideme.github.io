@@ -80,6 +80,6 @@ http://aaa.com/activity/bigsales/?source=weixin&content=h9j76g&inviter=00001&tim
 ？后面的是网页参数，source = weixin 说明网页是分享到微信的，content 是页面的具体内容/类型，inviter表示是哪个用户分享出去的，timestamp则是分享的具体时间戳  
 活动参与率  
 
-from 知乎 <https://zhuanlan.zhihu.com/p/27029515>(https://zhuanlan.zhihu.com/p/27029515)
+from 知乎 <https://zhuanlan.zhihu.com/p/27029515>
 
 
