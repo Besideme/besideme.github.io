@@ -35,7 +35,7 @@ categories: create note
 
 移动趋势  
 
-![Alt text](/image/百雀羚百度指数整体趋势.png "百雀羚百度指数整体趋势")
+![Alt text](/image/百雀羚百度指数移动趋势.png "百雀羚百度指数移动趋势")
 
 **百度需求图谱**  
 
