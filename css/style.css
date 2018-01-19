@@ -16,6 +16,9 @@ h1,h1.page-heading,.post-link{
 pre,code{
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
+pre>code {
+  background-color: transparent;
+}
 .backtotop{
   position: fixed;
   bottom: 81px;
