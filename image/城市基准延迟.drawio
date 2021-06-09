@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T05:56:34.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.6.6" etag="dKuwWpPJsEdZOxrGlBwd" type="github"><diagram id="zkSONX1M5jMgEG-iiJc9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-09T06:11:36.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="B2M8ERpg4C6Sp6mH4AlW" version="14.6.6" type="github">
+  <diagram id="zkSONX1M5jMgEG-iiJc9" name="Page-1">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bdqkJ4YkB4PvKj6gJksP-1" target="bdqkJ4YkB4PvKj6gJksP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="550" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bdqkJ4YkB4PvKj6gJksP-2" target="bdqkJ4YkB4PvKj6gJksP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bdqkJ4YkB4PvKj6gJksP-2" target="bdqkJ4YkB4PvKj6gJksP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-2" value="用户选择区服&lt;br&gt;（获取区服id）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bdqkJ4YkB4PvKj6gJksP-3" target="bdqkJ4YkB4PvKj6gJksP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bdqkJ4YkB4PvKj6gJksP-3" target="bdqkJ4YkB4PvKj6gJksP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-3" value="解析省份和运营商，根据区服分配策略&lt;br&gt;(获取节点)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="545" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bdqkJ4YkB4PvKj6gJksP-4" target="bdqkJ4YkB4PvKj6gJksP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-4" value="运维树首页 - 节点资源管理 - 机器前端区域&lt;br&gt;（获取上车点）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="630" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.45;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bdqkJ4YkB4PvKj6gJksP-5" target="bdqkJ4YkB4PvKj6gJksP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="293" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-5" value="游戏管理 - 游戏信息管理 - 新增区服 - 节点配置类型&lt;br&gt;（获取下车点）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bdqkJ4YkB4PvKj6gJksP-6" value="城市基准延迟" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
