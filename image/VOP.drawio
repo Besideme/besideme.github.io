@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T06:45:51.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ThxvO1DvM_stxQRSnr4x" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T08:04:42.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="SCUoDARL41lV2KTdPG5_" version="14.8.0" type="github">
   <diagram id="YNfQ12_H4-abK58z41uk" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="290" />
-              <mxPoint x="230" y="540" />
+              <mxPoint x="230" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -34,14 +34,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xCUj37M5p90MkXv-arF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-2" target="9xCUj37M5p90MkXv-arF-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="290" />
-              <mxPoint x="410" y="390" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-2" target="9xCUj37M5p90MkXv-arF-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -50,14 +42,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9xCUj37M5p90MkXv-arF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-2" target="9xCUj37M5p90MkXv-arF-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-2" target="9xCUj37M5p90MkXv-arF-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="290" />
-              <mxPoint x="410" y="340" />
+              <mxPoint x="430" y="290" />
+              <mxPoint x="430" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -67,64 +56,58 @@
         <mxCell id="9xCUj37M5p90MkXv-arF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-3" target="9xCUj37M5p90MkXv-arF-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="540" />
-              <mxPoint x="410" y="460" />
+              <mxPoint x="410" y="440" />
+              <mxPoint x="410" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-3" target="9xCUj37M5p90MkXv-arF-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="540" />
-              <mxPoint x="410" y="615" />
+              <mxPoint x="410" y="440" />
+              <mxPoint x="410" y="515" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-3" target="9xCUj37M5p90MkXv-arF-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="540" />
-              <mxPoint x="410" y="510" />
+              <mxPoint x="410" y="440" />
+              <mxPoint x="410" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9xCUj37M5p90MkXv-arF-3" target="9xCUj37M5p90MkXv-arF-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="540" />
-              <mxPoint x="410" y="560" />
+              <mxPoint x="410" y="440" />
+              <mxPoint x="410" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-3" value="资源管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="520" width="120" height="40" as="geometry" />
+          <mxGeometry x="270" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-4" value="分流配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9xCUj37M5p90MkXv-arF-5" value="cn2分配-配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9xCUj37M5p90MkXv-arF-5" value="广告分区配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="220" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9xCUj37M5p90MkXv-arF-6" value="cn2分配策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9xCUj37M5p90MkXv-arF-7" value="分区配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="270" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9xCUj37M5p90MkXv-arF-7" value="分区配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444" y="320" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9xCUj37M5p90MkXv-arF-8" value="分区配置策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444" y="370" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-9" value="运维树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="444" y="340" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-10" value="节点在线数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444" y="490" width="120" height="40" as="geometry" />
+          <mxGeometry x="444" y="390" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-11" value="节点资源管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444" y="540" width="120" height="40" as="geometry" />
+          <mxGeometry x="444" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-12" value="节点黑名单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="444" y="594.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="444" y="494.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-31" value="区服管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="110" width="120" height="40" as="geometry" />
