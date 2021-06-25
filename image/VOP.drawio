@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T08:15:48.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="orutf9e6J0SuXQCvXgRg" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T01:17:49.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="E8_hM2XImNPLO6-5nU2o" version="14.8.0" type="github">
   <diagram id="YNfQ12_H4-abK58z41uk" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
         <mxCell id="9xCUj37M5p90MkXv-arF-4" value="分流配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="210" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9xCUj37M5p90MkXv-arF-7" value="分区配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9xCUj37M5p90MkXv-arF-7" value="分区配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="270" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9xCUj37M5p90MkXv-arF-9" value="运维树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
